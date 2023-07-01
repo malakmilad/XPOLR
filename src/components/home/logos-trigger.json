@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_home_logos_triggers",
+  "info": {
+    "displayName": "logosTrigger",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text",
+      "maxLength": 60
+    },
+    "description": {
+      "type": "richtext",
+      "maxLength": 85
+    },
+    "text_btn1": {
+      "type": "string"
+    },
+    "text_btn2": {
+      "type": "string"
+    },
+    "background_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "logos": {
+      "displayName": "logos",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.logos"
+    }
+  }
+}

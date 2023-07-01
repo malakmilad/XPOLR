@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_article_article_titles",
+  "info": {
+    "displayName": "article_title",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 125
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "article_date": {
+      "type": "date"
+    },
+    "topics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::topic.topic"
+    }
+  }
+}

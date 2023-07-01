@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_home_forms",
+  "info": {
+    "displayName": "form"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "text_btn": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Blog articles",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "article_title": {
+      "displayName": "article_title",
+      "type": "component",
+      "repeatable": false,
+      "component": "article.article-title"
+    },
+    "article_video": {
+      "displayName": "article_video",
+      "type": "component",
+      "repeatable": false,
+      "component": "article.article-video"
+    },
+    "article_detail": {
+      "displayName": "article_detail",
+      "type": "component",
+      "repeatable": false,
+      "component": "article.article-detail"
+    },
+    "related_articles": {
+      "displayName": "related_articles",
+      "type": "component",
+      "repeatable": false,
+      "component": "article.related-articles"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "card": {
+      "displayName": "card",
+      "type": "component",
+      "repeatable": false,
+      "component": "article.card"
+    },
+    "seo": {
+      "displayName": "seo",
+      "type": "component",
+      "repeatable": false,
+      "component": "article.seo"
+    }
+  }
+}

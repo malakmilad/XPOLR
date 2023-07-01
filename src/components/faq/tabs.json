@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_faq_tabs",
+  "info": {
+    "displayName": "tabs"
+  },
+  "options": {},
+  "attributes": {
+    "tab": {
+      "type": "string"
+    }
+  }
+}

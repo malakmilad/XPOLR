@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "write_to_us_forms",
+  "info": {
+    "singularName": "write-to-us-form",
+    "pluralName": "write-to-us-forms",
+    "displayName": "Write to us form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "text"
+    },
+    "email_address": {
+      "type": "email"
+    },
+    "mobile_number": {
+      "type": "biginteger"
+    },
+    "country": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "message": {
+      "type": "richtext"
+    }
+  }
+}

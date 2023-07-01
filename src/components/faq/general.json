@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_faq_generals",
+  "info": {
+    "displayName": "general",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "comments": {
+      "displayName": "general_details",
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.general-details"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_faq_banners",
+  "info": {
+    "displayName": "banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header_line_one": {
+      "type": "string",
+      "maxLength": 25
+    },
+    "header_line_two": {
+      "type": "string",
+      "maxLength": 25
+    },
+    "description": {
+      "type": "richtext",
+      "maxLength": 110
+    },
+    "tabs": {
+      "displayName": "tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.tabs"
+    },
+    "img_desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "img_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

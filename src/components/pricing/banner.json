@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_pricing_banners",
+  "info": {
+    "displayName": "banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 25
+    },
+    "description": {
+      "type": "richtext",
+      "maxLength": 110
+    },
+    "details": {
+      "displayName": "details",
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.details"
+    },
+    "text_btn1": {
+      "type": "string"
+    },
+    "text_btn2": {
+      "type": "string"
+    },
+    "small_description": {
+      "type": "richtext"
+    },
+    "banner_images": {
+      "displayName": "banner_images",
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.banner-images"
+    },
+    "background_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

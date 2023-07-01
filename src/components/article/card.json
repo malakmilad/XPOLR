@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_article_cards",
+  "info": {
+    "displayName": "card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img_desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "img_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "headline": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 170
+    }
+  }
+}

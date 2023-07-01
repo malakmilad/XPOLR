@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pricing_plans",
+  "info": {
+    "displayName": "plans",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "text_btn": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "maxLength": 25
+    },
+    "sub_title": {
+      "type": "string",
+      "maxLength": 65
+    },
+    "options": {
+      "displayName": "options",
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.options"
+    }
+  }
+}

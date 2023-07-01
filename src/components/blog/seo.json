@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blog_seos",
+  "info": {
+    "displayName": "seo"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_testimonials",
+  "info": {
+    "displayName": "testimonials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "feedback": {
+      "displayName": "Feedback",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.feedback"
+    }
+  }
+}

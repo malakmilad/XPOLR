@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_us_details",
+  "info": {
+    "displayName": "details"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

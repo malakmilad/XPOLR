@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blog_recent_articles",
+  "info": {
+    "displayName": "recent_articles",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    }
+  }
+}

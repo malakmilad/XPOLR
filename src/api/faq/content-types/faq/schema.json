@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "FAQs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "faq.banner"
+    },
+    "common_questions": {
+      "displayName": "general",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "faq.general"
+    },
+    "seo": {
+      "displayName": "seo",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "faq.seo"
+    }
+  }
+}

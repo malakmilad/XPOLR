@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "displayName": "banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.test"
+    },
+    "activities": {
+      "displayName": "home_slider",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.home-slider"
+    },
+    "logosTrigger": {
+      "displayName": "logosTrigger",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.logos-trigger"
+    },
+    "testimonials": {
+      "displayName": "testimonials",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.testimonials"
+    },
+    "Articles": {
+      "displayName": "Articles",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.articles"
+    },
+    "seo": {
+      "displayName": "seo",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.seo"
+    }
+  }
+}

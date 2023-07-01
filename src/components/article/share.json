@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_article_shares",
+  "info": {
+    "displayName": "share"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "link": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_contents",
+  "info": {
+    "displayName": "content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 22
+    },
+    "description": {
+      "type": "richtext",
+      "maxLength": 90
+    }
+  }
+}

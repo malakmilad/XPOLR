@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "topics",
+  "info": {
+    "singularName": "topic",
+    "pluralName": "topics",
+    "displayName": "Blog topics",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}

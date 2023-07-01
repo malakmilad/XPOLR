@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_contact_us_write_to_uses",
+  "info": {
+    "displayName": "Write_to_us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text_btn1": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "icons": {
+      "displayName": "icons",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.icons"
+    },
+    "text_btn2": {
+      "type": "string"
+    }
+  }
+}

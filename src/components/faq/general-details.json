@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_faq_general_details",
+  "info": {
+    "displayName": "general_details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "richtext",
+      "maxLength": 120
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

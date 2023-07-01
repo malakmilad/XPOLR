@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_contact_us_banners",
+  "info": {
+    "displayName": "banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "details": {
+      "displayName": "details",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.details"
+    },
+    "img_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_mobile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

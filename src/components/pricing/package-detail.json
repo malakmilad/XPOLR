@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_pricing_package_details",
+  "info": {
+    "displayName": "package_detail",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "maxLength": 60
+    },
+    "check_box1": {
+      "type": "boolean"
+    },
+    "check_box2": {
+      "type": "boolean"
+    },
+    "check_box3": {
+      "type": "boolean"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

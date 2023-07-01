@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_faq_payments",
+  "info": {
+    "displayName": "payments"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "payment_details": {
+      "displayName": "payment_details",
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.payment-details"
+    }
+  }
+}

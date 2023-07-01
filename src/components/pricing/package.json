@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_pricing_packages",
+  "info": {
+    "displayName": "package",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "level_1": {
+      "type": "string"
+    },
+    "level_2": {
+      "type": "string"
+    },
+    "level_3": {
+      "type": "string"
+    },
+    "package_detail": {
+      "displayName": "package_detail",
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.package-detail"
+    }
+  }
+}

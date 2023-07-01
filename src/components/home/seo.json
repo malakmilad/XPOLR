@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_seos",
+  "info": {
+    "displayName": "seo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "meta_description": {
+      "type": "richtext",
+      "maxLength": 160
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

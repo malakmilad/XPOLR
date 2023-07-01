@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletter_forms",
+  "info": {
+    "singularName": "newsletter-form",
+    "pluralName": "newsletter-forms",
+    "displayName": "Newsletter form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "email_address": {
+      "type": "email",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

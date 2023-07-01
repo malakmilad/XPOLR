@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_article_article_videos",
+  "info": {
+    "displayName": "article_video"
+  },
+  "options": {},
+  "attributes": {
+    "img_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "video_link": {
+      "type": "text"
+    }
+  }
+}

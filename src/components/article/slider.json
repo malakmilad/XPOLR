@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_article_sliders",
+  "info": {
+    "displayName": "slider"
+  },
+  "options": {},
+  "attributes": {
+    "img_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "text"
+    },
+    "date": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_pricing_options",
+  "info": {
+    "displayName": "options"
+  },
+  "options": {},
+  "attributes": {
+    "option": {
+      "type": "string"
+    },
+    "plans_detail": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.price"
+    }
+  }
+}

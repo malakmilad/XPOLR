@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_faq_payment_details",
+  "info": {
+    "displayName": "payment_details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "richtext"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

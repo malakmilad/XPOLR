@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_pricing_prices",
+  "info": {
+    "displayName": "price",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "level": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "specification": {
+      "displayName": "specification",
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing.specification"
+    },
+    "yearly_original": {
+      "type": "string"
+    },
+    "yearly_discount": {
+      "type": "string"
+    },
+    "monthly": {
+      "type": "string"
+    },
+    "text_btn": {
+      "type": "string"
+    },
+    "background_color": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    }
+  }
+}

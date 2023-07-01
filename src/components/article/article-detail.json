@@ -1,0 +1,92 @@
+{
+  "collectionName": "components_article_article_details",
+  "info": {
+    "displayName": "article_detail"
+  },
+  "options": {},
+  "attributes": {
+    "title_1": {
+      "type": "text"
+    },
+    "description_1": {
+      "type": "richtext"
+    },
+    "img_desktop_1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_mobile_1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title_2": {
+      "type": "text"
+    },
+    "description_2": {
+      "type": "richtext"
+    },
+    "description_3": {
+      "type": "richtext"
+    },
+    "img_desktop_2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_mobile_2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title_3": {
+      "type": "text"
+    },
+    "description_4": {
+      "type": "richtext"
+    },
+    "img_desktop_3": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_mobile_3": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "img_desktop_4": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_mobile_4": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title_4": {
+      "type": "string"
+    },
+    "description_5": {
+      "type": "richtext"
+    }
+  }
+}

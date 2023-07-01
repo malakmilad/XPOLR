@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_home_banners",
+  "info": {
+    "displayName": "slideshow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_line_one": {
+      "type": "string",
+      "maxLength": 27
+    },
+    "title_line_two": {
+      "type": "string",
+      "maxLength": 23
+    },
+    "sub_title": {
+      "type": "string",
+      "maxLength": 52
+    },
+    "img_desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "img_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header_line_one": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "header_line_two": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "description": {
+      "type": "richtext",
+      "maxLength": 110
+    },
+    "content": {
+      "displayName": "content",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.content"
+    },
+    "link": {
+      "type": "text"
+    }
+  }
+}

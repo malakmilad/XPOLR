@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_pricing_banner_images",
+  "info": {
+    "displayName": "banner_images"
+  },
+  "options": {},
+  "attributes": {
+    "img_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "img_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
